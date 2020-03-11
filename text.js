@@ -29,7 +29,6 @@ function showSlides() {
 //   myFunction();
 // };
 
-<<<<<<< HEAD
 function myFunction() {
   if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
     document.getElementById("go").className = "gone";
@@ -102,80 +101,3 @@ function myFunction() {
 //     }
 //   });
 // });
-=======
-// function myFunction() {
-//   if (
-//     document.body.scrollTop > 400 ||
-//     document.documentElement.scrollTop > 400
-//   ) {
-//     document.getElementById("pics1").className = "fadeIn";
-//   } else {
-//     document.getElementById("pics1").className = "";
-//   }
-// }
-
-$(window).scroll(function() {
-  $("#slide").each(function() {
-    var imagePos = $(this).offset().top;
-
-    var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow + 400) {
-      $(this).addClass("fadeIn");
-    }
-  });
-});
-
-$(window).scroll(function() {
-  $("#pics1").each(function() {
-    var imagePos = $(this).offset().top;
-    var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow + 400) {
-      $(this).addClass("slideRight");
-    }
-  });
-});
-
-$(window).scroll(function() {
-  $("#pics2").each(function() {
-    var imagePos = $(this).offset().top;
-
-    var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow + 300) {
-      $(this).addClass("pulse");
-    }
-  });
-});
-
-$(window).scroll(function() {
-  $("#pics3").each(function() {
-    var imagePos = $(this).offset().top;
-
-    var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow + 400) {
-      $(this).addClass("fadeIn");
-    }
-  });
-});
-
-$(window).scroll(function() {
-  $("#pics4").each(function() {
-    var imagePos = $(this).offset().top;
-
-    var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow + 400) {
-      $(this).addClass("expandOpen");
-    }
-  });
-});
-
-$(window).scroll(function() {
-  $("#pics5").each(function() {
-    var imagePos = $(this).offset().top;
-
-    var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow + 400) {
-      $(this).addClass("floating");
-    }
-  });
-});
->>>>>>> c7a91ef2ff009e2e35a564b8ea6ff9fed1fecf60

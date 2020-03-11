@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(black, black);
+  color: fuchsia;
+  max-width: 100vw;
+  max-height: 90vh;
+  font-family: "Montserrat";
+  scroll-behavior: smooth;
+}
+
+h3 {
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+  font-weight: lighter;
+  animation: intro 2s;
+}
+@keyframes intro {
+  0% {
+    position: absolute;
+    bottom: 0%;
+  }
+
+  100% {
+    position: absolute;
+    bottom: 87%;
+  }
+}
+h2 {
+  font-size: 15px;
+  position: relative;
+  bottom: 16px;
+  text-align: center;
+  outline: 2px solid fuchsia;
+  outline-offset: 5px;
+  font-weight: lighter;
+
+  animation: offset 0.5s infinite;
+}
+@keyframes offset {
+  0% {
+    outline: 3px solid fuchsia;
+    outline-offset: 10px;
+  }
+
+  100% {
+    outline-offset: 6px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+.button {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  margin-left: 27%;
+
+  left: auto;
+  right: auto;
+  animation-name: slow;
+  animation-duration: 84s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slow {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+canvas {
+  display: block;
+}

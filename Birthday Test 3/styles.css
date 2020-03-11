@@ -1,0 +1,64 @@
+body {
+  background: black;
+  /* overflow: hidden; */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.sec {
+  position: absolute;
+  bottom: 0;
+}
+
+#clicked {
+  text-decoration: none;
+  position: relative;
+  bottom: 0px;
+  color: white;
+
+  left: 15%;
+  font-size: 20px;
+  outline: 1px solid fuchsia;
+  outline-offset: 6px;
+  animation: offset 0.5s infinite;
+}
+@keyframes offset {
+  0% {
+    outline: 3px solid fuchsia;
+    outline-offset: 10px;
+  }
+
+  100% {
+    outline-offset: 6px;
+  }
+}
+
+.click {
+  animation-name: slow;
+  animation-duration: 89s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slow {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+#clicked:hover {
+  outline: 0 solid black;
+  color: fuchsia;
+}

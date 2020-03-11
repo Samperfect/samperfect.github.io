@@ -1,0 +1,211 @@
+* {
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+body {
+  font-family: "Raleway";
+  background: black;
+}
+
+/* linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.94)); */
+
+.header-wrap {
+  height: 100vh;
+}
+
+/* .header-fade {
+  display: none;
+} */
+
+.header1,
+.header2,
+.header3,
+.header4,
+.header5 {
+  padding-top: 30px;
+  color: fuchsia;
+  font-size: 35px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 7px;
+  /* animation: pop 2s ease-in-out infinite; */
+}
+
+.header1 {
+  animation: pop2 1s 2s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+@keyframes pop1 {
+  0% {
+    visibility: visible;
+    transform: scale(10);
+  }
+  100% {
+    visibility: visible;
+    transform: scale(1);
+  }
+}
+
+.header2 {
+  animation: pop2 1s 4s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes pop2 {
+  0% {
+    visibility: visible;
+    transform: scale(10);
+  }
+  100% {
+    visibility: visible;
+    transform: scale(1);
+  }
+}
+.header3 {
+  animation: pop1 1s 1s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes pop2 {
+  0% {
+    visibility: visible;
+    transform: scale(10);
+  }
+  100% {
+    visibility: visible;
+    transform: scale(1);
+  }
+}
+.header4 {
+  animation: pop2 1s 5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes pop2 {
+  0% {
+    visibility: visible;
+    transform: scale(10);
+  }
+  100% {
+    visibility: visible;
+    transform: scale(1);
+  }
+}
+.header5 {
+  animation: pop2 1s 3s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+@keyframes pop2 {
+  0% {
+    visibility: visible;
+    transform: scale(10);
+  }
+  100% {
+    visibility: visible;
+    transform: scale(1);
+  }
+}
+
+.gone {
+  display: none;
+}
+
+@keyframes go1 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(3);
+  }
+}
+
+/* .slideshow {
+  visibility: hidden;
+} */
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.fade img {
+  box-shadow: -1px 1px 25px gray;
+}
+.slideshow-container {
+  max-width: 250px;
+  position: relative;
+  margin: auto;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.photocard {
+  text-align: center;
+  padding-top: 20px;
+  width: 300px;
+  height: 370px;
+}
+.photocard img {
+  width: 80%;
+  height: 90%;
+}
+.btn-con {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.btn {
+  width: 180px;
+  height: 30px;
+  background: black;
+  cursor: pointer;
+  border: none;
+  outline: 2px dotted fuchsia;
+  outline-offset: 5px;
+}
+.btn a {
+  text-decoration: none;
+  color: fuchsia;
+  font-family: "raleway";
+  font-size: 1rem;
+}
+
+.btn:hover {
+  outline: none;
+}

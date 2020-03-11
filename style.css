@@ -7,6 +7,8 @@
   max-width: 100%;
 }
 body {
+  place-items: center;
+  text-align: center;
   font-family: "Raleway";
   background: black;
 }
@@ -26,12 +28,12 @@ body {
 .header3,
 .header4,
 .header5 {
-  padding-top: 30px;
+  padding-top: 40px;
   color: fuchsia;
-  font-size: 35px;
+  font-size: 70px;
   font-weight: lighter;
   text-align: center;
-  line-height: 50px;
+  line-height: 70px;
   letter-spacing: 7px;
   /* animation: pop 2s ease-in-out infinite; */
 }

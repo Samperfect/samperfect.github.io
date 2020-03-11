@@ -16,7 +16,7 @@ body {
 /* linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.94)); */
 
 .header-wrap {
-  height: 100vh;
+  height: 100%;
 }
 
 /* .header-fade {
@@ -28,12 +28,12 @@ body {
 .header3,
 .header4,
 .header5 {
-  padding-top: 70px;
+  padding-top: 10%;
   color: fuchsia;
   font-size: 70px;
   font-weight: lighter;
   text-align: center;
-  line-height: 70px;
+
   letter-spacing: 7px;
   /* animation: pop 2s ease-in-out infinite; */
 }
@@ -180,8 +180,8 @@ img {
 .photocard {
   text-align: center;
   padding-top: 20px;
-  width: 400px;
-  height: 470px;
+  width: 450px;
+  height: 550px;
 }
 
 .photocard img {

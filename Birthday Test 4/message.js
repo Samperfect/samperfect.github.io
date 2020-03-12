@@ -63,7 +63,7 @@ var particleAlphabet = {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
     ctx.fillStyle = "red";
-    ctx.font = "italic bolder 300px Cambria";
+    ctx.font = "italic bolder 300px Raleway";
     ctx.fillText(
       keyword,
       canvas.width / 2 - ctx.measureText(keyword).width / 2,

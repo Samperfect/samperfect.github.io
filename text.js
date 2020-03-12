@@ -1,8 +1,7 @@
 // slide show effect
 // onload = alert("");
 
-var sound = new Audio('Billie Eilish - OCEAN EYES.mp3');
-onload = sound.play();
+onload = document.getElementById('playaudio').play();
 
 
 var slideIndex = 0;

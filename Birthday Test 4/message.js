@@ -1,4 +1,3 @@
-onload = document.getElementById('playaudio').play();
 
 var particleAlphabet = {
   Particle: function(x, y) {

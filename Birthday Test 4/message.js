@@ -1,3 +1,4 @@
+
 var particleAlphabet = {
   Particle: function(x, y) {
     this.x = x;
@@ -30,7 +31,7 @@ var particleAlphabet = {
         particleAlphabet.tmpCanvas,
         particleAlphabet.tmpCtx
       );
-    }, 500);
+    }, 1000);
 
     particleAlphabet.makeParticles(1000);
     particleAlphabet.animate();
@@ -63,7 +64,7 @@ var particleAlphabet = {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
     ctx.fillStyle = "red";
-    ctx.font = "italic bolder 250px Cambria";
+    ctx.font = "italic bolder 300px Raleway";
     ctx.fillText(
       keyword,
       canvas.width / 2 - ctx.measureText(keyword).width / 2,

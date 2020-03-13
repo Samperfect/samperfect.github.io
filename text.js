@@ -1,6 +1,9 @@
 // slide show effect
 // onload = alert("");
 
+onload = document.getElementById('playaudio').play();
+
+
 var slideIndex = 0;
 showSlides();
 

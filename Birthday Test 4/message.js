@@ -1,4 +1,3 @@
-
 var particleAlphabet = {
   Particle: function(x, y) {
     this.x = x;
@@ -7,7 +6,7 @@ var particleAlphabet = {
     this.draw = function(ctx) {
       ctx.save();
       ctx.translate(this.x, this.y);
-      ctx.fillStyle = "fuchsia";
+      ctx.fillStyle = "rgb(255, 0, 200)";
       ctx.fillRect(0, 0, this.radius, this.radius);
       ctx.restore();
     };

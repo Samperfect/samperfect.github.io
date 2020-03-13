@@ -29,7 +29,7 @@ body {
 .header4,
 .header5 {
   padding-top: 15%;
-  color: fuchsia;
+  color: rgb(255, 0, 200);
   font-size: 70px;
   font-weight: lighter;
   text-align: center;
@@ -201,13 +201,13 @@ img {
   background: black;
   cursor: pointer;
   border: none;
-  outline: 2px dotted fuchsia;
+  outline: 2px dotted rgb(255, 0, 200);
   outline-offset: 5px;
 }
 
 .btn a {
   text-decoration: none;
-  color: fuchsia;
+  color: rgb(255, 0, 200);
   font-family: "raleway";
   font-size: 1rem;
 }

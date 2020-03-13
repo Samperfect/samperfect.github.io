@@ -25,13 +25,13 @@ canvas {
 
   left: 15%;
   font-size: 20px;
-  outline: 1px solid fuchsia;
+  outline: 1px solid rgb(255, 0, 200);
   outline-offset: 6px;
   animation: offset 0.5s infinite;
 }
 @keyframes offset {
   0% {
-    outline: 3px solid fuchsia;
+    outline: 3px solid rgb(255, 0, 200);
     outline-offset: 10px;
   }
 
@@ -60,5 +60,5 @@ canvas {
 
 #clicked:hover {
   outline: 0 solid black;
-  color: fuchsia;
+  color: rgb(255, 0, 200);
 }

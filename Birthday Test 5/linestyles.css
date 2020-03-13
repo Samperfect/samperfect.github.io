@@ -1,0 +1,16 @@
+* {
+  text-align: center;
+  background: black;
+  place-content: center;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
+  width: 100vw;
+}
+
+p {
+  color: rgb(255, 0, 200);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+}

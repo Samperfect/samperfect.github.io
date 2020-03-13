@@ -6,11 +6,64 @@
   align-items: center;
   justify-content: center;
   margin-top: 15%;
-  width: 100vw;
+
+  font-family: "Satisfy", cursive;
+  color: fuchsia;
 }
 
 p {
   color: rgb(255, 0, 200);
-  font-family: "Courier New", Courier, monospace;
-  font-size: 2em;
+  font-family: "Satisfy", cursive;
+  font-size: 1em;
+}
+
+h2 {
+  font-size: 15px;
+  /* position: relative;
+  bottom: 16px; */
+  text-align: center;
+  outline: 2px solid rgb(255, 0, 200);
+  /* outline-offset: 5px; */
+  font-weight: lighter;
+  display: inline-block;
+  animation: offset 0.5s infinite;
+}
+@keyframes offset {
+  0% {
+    outline: 3px solid rgb(255, 0, 200);
+    outline-offset: 8px;
+  }
+
+  100% {
+    outline-offset: 6px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 0, 200);
+}
+.button {
+  text-align: center;
+  /* position: absolute;
+  bottom: 0;
+  margin-left: 27%; */
+
+  /* left: auto;
+  right: auto; */
+  animation-name: slow;
+  animation-duration: 82s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slow {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
 }
